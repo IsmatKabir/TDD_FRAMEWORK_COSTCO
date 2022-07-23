@@ -23,7 +23,7 @@ public class HomePageTest2 extends WebTestBase {
 
 
 
-    @Test(enabled = false)
+    @Test
     @Ignore
     public void verifySearchProductUsingValidProductName() {
         // Action method
@@ -82,7 +82,7 @@ public class HomePageTest2 extends WebTestBase {
 //
 //    }
 
-    @Test
+    @Test(enabled = false)
     public void verifySearchProductUsingValidProductName1() {
         // Action method
         homePage2.searchProductUsingValidProductName();

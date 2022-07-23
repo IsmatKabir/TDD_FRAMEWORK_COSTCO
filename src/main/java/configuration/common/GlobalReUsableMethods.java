@@ -30,7 +30,7 @@ public class GlobalReUsableMethods extends WebTestBase {
     public void clickOnElementCssSelector(String locator) {
         driver.findElement(By.cssSelector(locator)).click();
     }
-
+    // sendkeys er jonno
     public static void enterValueOnElement(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }

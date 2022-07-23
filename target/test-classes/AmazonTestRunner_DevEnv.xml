@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="costco Test Suite">
+<suite name="Amazon Test Suite">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserStack"/>
     <parameter name="os" value="windows"/>
@@ -9,15 +9,13 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="103"/>
     <!--    <parameter name="browserName" value="firefox"/>-->
-    <parameter name="url" value="https://www.costco.com/"/>
+    <parameter name="url" value="https://www.dev.amazon.com/"/>
 
-    <test name="Costco Web Automation">
+    <test name="Amazon Web Automation">
         <classes>
             <!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest"/>-->
             <!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest1"/>-->
-<!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest2"/>-->
-<!--            <class name="com.amazon.testPages.HomePageTest.HomePageNewTest"/>&ndash;&gt;-->
-           <class name="com.costco.costcoTestPages.costcoHomePageTest.CostcoHomePageTest"/>
+            <class name="com.amazon.testPages.HomePageTest.HomePageTest2"/>
             <!--            <class name="com.amazon.testPages.RegistrationPageTest.RegistrationPageTest"/>-->
 
 
